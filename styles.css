@@ -121,6 +121,18 @@ body {
     min-width: 300px;
     min-height: 300px;
   }
+  h1, h2 {
+    padding: 0.7rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    padding: 6px;
+  }
+  h3 {
+    padding: 4px;
+  }
   /* media query - laptop and phones - how it works*/
   @media (max-width:1366px) {
     #tutorial { 
@@ -208,6 +220,7 @@ body {
   #email {
     line-height: 2;
     width: 50%;
+    padding: 0 6px;
   }
   #email-label {
     color: #fcfcfc;
